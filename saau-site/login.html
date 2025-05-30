@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - SAAU</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="imagens/logo.png" alt="Logo SAAU" class="logo-header" />
+      <span>ONG SAAU</span>
+    </a>
+  </header>
+  <main>
+    <form class="login-form" method="POST" action="autenticar.php">
+      <h2>Login Funcionário</h2>
+      <input type="text" name="usuario" placeholder="Usuário" required />
+      <input type="password" name="senha" placeholder="Senha" required />
+      <button type="submit">Entrar</button>
+    </form>
+  </main>
+</body>
+</html>
